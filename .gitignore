@@ -1,0 +1,23 @@
+/backend/node_modules/
+
+# dependencies
+/frontend/react-app-form/node_modules
+/frontend/react-app-form/.pnp
+/frontend/react-app-form/.pnp.js
+
+# testing
+/frontend/react-app-form/coverage
+
+# production
+/frontend/react-app-form/build
+
+# misc
+/frontend/react-app-form/.DS_Store
+/frontend/react-app-form/.env.local
+/frontend/react-app-form/.env.development.local
+/frontend/react-app-form/.env.test.local
+/frontend/react-app-form/.env.production.local
+
+/frontend/react-app-form/npm-debug.log*
+/frontend/react-app-form/yarn-debug.log*
+/frontend/react-app-form/yarn-error.log*
