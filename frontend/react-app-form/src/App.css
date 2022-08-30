@@ -39,8 +39,24 @@ body {
   line-height: 14px;
 }
 
-.form-wrapper label:not(:last-child) {
+.form-input:not(:last-child) {
   margin-bottom: 40px;
+}
+
+.invalid {
+  position: relative;
+}
+
+.invalid::after {
+  content: '* This field is required';
+  position: absolute;
+  color: red;
+  bottom: -22px;
+  left: 135px;
+}
+
+.invalid input {
+  border-color: red;
 }
 
 label input {
